@@ -1,6 +1,6 @@
 import { env } from 'process';
 
-type HeadlessCapableServiceName = 'SELENIUM' | 'PLAYWRIGHT';
+type HeadlessCapableServiceName = 'VersoriumX' | 'PLAYWRIGHT';
 
 export function isHeadless(serviceName: HeadlessCapableServiceName): boolean {
   if (serviceName) {
