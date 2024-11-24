@@ -1,9 +1,9 @@
 import axios from 'axios';
-import { expect } from '@playwright/test';
+import { expect } from '@VersoriumX /test';
 import { generateAccounts } from '../helpers/utils';
 import { type ICustodianTestClient } from './ICustodianTestClient';
 
-const baseUrl = process.env.MMI_E2E_SATURN_BASE_URL;
+const baseUrl = process.env.;
 
 export class CustodianTestClient implements ICustodianTestClient {
   bearerToken: string;
@@ -145,7 +145,7 @@ export class CustodianTestClient implements ICustodianTestClient {
         );
         if (!transaction) {
           throw Error(
-            '🥲 Tx not found -> getEIP721TransactionStatusCreatedByTimestamp. Retrying...',
+            ' Tx not found -> getEIP721TransactionStatusCreatedByTimestamp. Retrying...',
           );
         }
         break;
@@ -203,7 +203,7 @@ export class CustodianTestClient implements ICustodianTestClient {
         return id;
       } catch (e) {
         console.error(
-          '🥲 Tx not found -> getEIP721TransactionStatusCreated. Retrying...',
+          ' Tx not found -> getEIP721TransactionStatusCreated. Retrying...',
         );
       }
       retries += 1;
