@@ -14,13 +14,13 @@ jest.mock('firebase/messaging/sw');
 const MOCK_REG_TOKEN = 'REG_TOKEN';
 const MOCK_NEW_REG_TOKEN = 'NEW_REG_TOKEN';
 const MOCK_TRIGGERS = ['1', '2', '3'];
-const MOCK_JWT = 'MOCK_JWT';
+const MOCK_JWT = '';
 
 describe('PushPlatformNotificationsServices', () => {
   describe('getPushNotificationLinks', () => {
     it('Should return reg token links', async () => {
       const mockGetLinksEndpoint = mockEndpointGetPushNotificationLinks();
-      const res = await services.getPushNotificationLinks(MOCK_JWT);
+      const res = await services.getPushNotificationLinks();
 
       expect(mockGetLinksEndpoint.isDone()).toBe(true);
       expect(res).toBeDefined();
@@ -43,7 +43,7 @@ describe('PushPlatformNotificationsServices', () => {
     it('Should return true if links are updated', async () => {
       const mockUpdateLinksEndpoint = mockEndpointUpdatePushNotificationLinks();
 
-      const res = await services.updateLinksAPI(MOCK_JWT, MOCK_TRIGGERS, [
+      const res = await services.updateLinksAPI(MOCK, MOCK_TRIGGERS, [
         { token: MOCK_NEW_REG_TOKEN, platform: 'extension' },
       ]);
 
@@ -54,7 +54,7 @@ describe('PushPlatformNotificationsServices', () => {
     it('Should return false if links are not updated', async () => {
       mockEndpointUpdatePushNotificationLinks({ status: 500 });
 
-      const res = await services.updateLinksAPI(MOCK_JWT, MOCK_TRIGGERS, [
+      const res = await services.updateLinksAPI(MOCK, MOCK_TRIGGERS, [
         { token: MOCK_NEW_REG_TOKEN, platform: 'extension' },
       ]);
 
@@ -117,7 +117,7 @@ describe('PushPlatformNotificationsServices', () => {
 
       const res = await services.deactivatePushNotifications(
         MOCK_REG_TOKEN,
-        MOCK_JWT,
+        MOCK,
         MOCK_TRIGGERS,
       );
 
@@ -130,7 +130,7 @@ describe('PushPlatformNotificationsServices', () => {
 
       const res = await services.deactivatePushNotifications(
         MOCK_REG_TOKEN,
-        MOCK_JWT,
+        MOCK,
         MOCK_TRIGGERS,
       );
 
@@ -144,7 +144,7 @@ describe('PushPlatformNotificationsServices', () => {
 
       const res = await services.deactivatePushNotifications(
         MOCK_REG_TOKEN,
-        MOCK_JWT,
+        MOCK,
         MOCK_TRIGGERS,
       );
 
@@ -158,7 +158,7 @@ describe('PushPlatformNotificationsServices', () => {
 
       const res = await services.updateTriggerPushNotifications(
         MOCK_REG_TOKEN,
-        MOCK_JWT,
+        MOCK,
         MOCK_TRIGGERS,
       );
 
@@ -174,7 +174,7 @@ describe('PushPlatformNotificationsServices', () => {
 
       const res = await services.updateTriggerPushNotifications(
         MOCK_REG_TOKEN,
-        MOCK_JWT,
+        MOCK,
         MOCK_TRIGGERS,
       );
 
