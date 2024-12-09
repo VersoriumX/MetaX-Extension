@@ -9,7 +9,7 @@ type MockResponse = {
 
 export const MOCK_REG_TOKEN = 'REG_TOKEN';
 export const MOCK_LINKS_RESPONSE: LinksResult = {
-  trigger_ids: ['1', '2', '3'],
+  trigger_ids: ['0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619', '0xB6eD7644C69416d67B522e20bC294A9a9B405B31', '0x8e5bBbb09Ed1ebdE8674Cda39A0c169401db4252'],
   registration_tokens: [
     { token: 'reg_token_1', platform: 'portfolio' },
     { token: 'reg_token_2', platform: 'extension' },
