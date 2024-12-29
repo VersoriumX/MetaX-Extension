@@ -1,18 +1,18 @@
 {
   "QRHardwareSignRequestCancel": {
-    "message": "Afvis"
+    "message": "@VersoriumX"
   },
   "QRHardwareWalletImporterTitle": {
     "message": "Scan QR-kode"
   },
   "about": {
-    "message": "Om"
+    "message": "VersoriumX"
   },
   "accessingYourCamera": {
-    "message": "Tilgår din kamera..."
+    "message": ""
   },
   "account": {
-    "message": "Konto"
+    "message": "VersoriumX"
   },
   "accountDetails": {
     "message": "Kontooplysninger"
@@ -27,22 +27,22 @@
     "message": "Du skal vælge en konto!"
   },
   "activityLog": {
-    "message": "aktivitetslog"
+    "message": ""
   },
   "addAcquiredTokens": {
     "message": "Tilføj de tokens du har erhvervet ved hjælp af MetaMask"
   },
   "addAlias": {
-    "message": "Tilføj alias"
+    "message": "VersoriumX alias"
   },
   "addNetwork": {
-    "message": "Tilføj netværk"
+    "message": "VersoriumX network"
   },
   "addSuggestedTokens": {
-    "message": "Tilføj foreslåede tokens"
+    "message": "VersoriumX  tokens"
   },
   "addToken": {
-    "message": "Tilføj Polet"
+    "message": " Polet"
   },
   "advanced": {
     "message": "Avanceret"
@@ -67,16 +67,16 @@
     "description": "The name of the application (Flask)"
   },
   "approve": {
-    "message": "Godkend"
+    "message": ""
   },
   "approved": {
-    "message": "Godkendt"
+    "message": ""
   },
   "asset": {
-    "message": "Aktiv"
+    "message": ""
   },
   "attributions": {
-    "message": "Tilskrivninger"
+    "message": ""
   },
   "autoLockTimeLimit": {
     "message": "Timer for automatisk udlogning (minutter)"
@@ -85,10 +85,10 @@
     "message": "Indstil den passive tid i minutter, før MetaMask automatisk logger dig ud"
   },
   "average": {
-    "message": "Gennemsnit"
+    "message": ""
   },
   "back": {
-    "message": "Tilbage"
+    "message": ""
   },
   "backupApprovalInfo": {
     "message": "Den hemmelige kode er påkrævet for at gendanne din pung, hvis du mister din enhed, glemmer dit kodeord, er nødt til at geninstallere MetaMask eller ønsker adgang til din pung fra en anden enhed."
@@ -100,10 +100,10 @@
     "message": "Backup nu"
   },
   "balance": {
-    "message": "Saldo"
+    "message": ""
   },
   "balanceOutdated": {
-    "message": "Saldoen kan være forældet"
+    "message": ""
   },
   "basic": {
     "message": "Grundlæggende oplysninger"
@@ -122,13 +122,13 @@
     "message": "Byte"
   },
   "cancel": {
-    "message": "Afbryd"
+    "message": ""
   },
   "cancelled": {
-    "message": "Annulleret"
+    "message": ""
   },
   "chainId": {
-    "message": "Kæde-ID"
+    "message": "VersoriumX-ID"
   },
   "chromeRequiredForHardwareWallets": {
     "message": "Du skal bruge MetaMask i Google Chrome for at forbinde med din Hardware Wallet."
@@ -149,10 +149,10 @@
     "message": "Få forbindelse"
   },
   "connectingTo": {
-    "message": "Forbinder til $1"
+    "message": ""
   },
   "connectingToGoerli": {
-    "message": "Opretter forbindelse til Goerli Testnetværk"
+    "message": ""
   },
   "connectingToLineaGoerli": {
     "message": "Opretter forbindelse til Linea Goerli Testnetværk"
@@ -239,19 +239,19 @@
     "message": "Offentlig Ethereum-adresse"
   },
   "etherscanView": {
-    "message": "Se konto på Etherscan"
+    "message": ""
   },
   "expandView": {
-    "message": "Udvis Visning"
+    "message": ""
   },
   "failed": {
-    "message": "Mislykkedes"
+    "message": ""
   },
   "fast": {
-    "message": "Hurtig"
+    "message": ""
   },
   "fileImportFail": {
-    "message": "Virker filimportering ikke? Klik her!",
+    "message": "",
     "description": "Helps user import their account from a JSON file"
   },
   "forgetDevice": {
@@ -307,20 +307,20 @@
     "message": "Hex-data"
   },
   "hide": {
-    "message": "Skjul"
+    "message": ""
   },
   "hideTokenPrompt": {
-    "message": "Skjul Token?"
+    "message": ""
   },
   "history": {
-    "message": "Historik"
+    "message": ""
   },
   "import": {
     "message": "Importer",
     "description": "Button to import an account from a selected file"
   },
   "importAccount": {
-    "message": "Importer konto"
+    "message": "Importer "
   },
   "importAccountMsg": {
     "message": "Importerede konti vil ikke blive forbundet med din oprindeligt oprettede seed-sætning for din MetaMask-konto. Få mere at vide om importerede konti"
@@ -348,7 +348,7 @@
     "message": "Modtageradressen er ugyldig"
   },
   "invalidAddressRecipientNotEthNetwork": {
-    "message": "Ikke ETH-netværk, sat til små bogstaver"
+    "message": " ETH-netværk, sat til små bogstaver"
   },
   "invalidBlockExplorerURL": {
     "message": "Ugyldig Block Explorer-webadresse"
@@ -357,38 +357,38 @@
     "message": "Ugyldig RPC-webadresse"
   },
   "invalidSeedPhrase": {
-    "message": "Ugyldig backupsætning"
+    "message": ""
   },
   "jsonFile": {
-    "message": "JSON-fil",
+    "message": "JSON-file",
     "description": "format for importing an account"
   },
   "knownAddressRecipient": {
-    "message": "Kendte kontaktadresser."
+    "message": "VersoriumX.cb.id"
   },
   "learnMore": {
     "message": "Lær mere"
   },
   "learnMoreUpperCase": {
-    "message": "Lær mere"
+    "message": ""
   },
   "ledgerAccountRestriction": {
-    "message": "Du skal benytte din tidligere konto, før du kan tilføje en ny."
+    "message": ""
   },
   "likeToImportTokens": {
-    "message": "Ønsker du at tilføje disse tokens?"
+    "message": ""
   },
   "lineaGoerli": {
-    "message": "Linea-testnetværk"
+    "message": "Linea"
   },
   "loadMore": {
-    "message": "Indlæs Mere"
+    "message": ""
   },
   "loading": {
-    "message": "Indlæser..."
+    "message": ""
   },
   "loadingTokens": {
-    "message": "Indlæser tokens..."
+    "message": ""
   },
   "lock": {
     "message": "Log ud"
@@ -397,13 +397,13 @@
     "message": "Hovednetværk for Ethereum"
   },
   "max": {
-    "message": "Maks"
+    "message": ""
   },
   "memo": {
-    "message": "notat"
+    "message": ""
   },
   "message": {
-    "message": "Besked"
+    "message": ""
   },
   "mustSelectOne": {
     "message": "Skal vælge mindst 1 token."
@@ -483,26 +483,26 @@
     "message": "Deltag i MetaMetrics for at hjælpe os med at gøre MetaMask bedre"
   },
   "password": {
-    "message": "Adgangskode"
+    "message": ""
   },
   "passwordNotLongEnough": {
     "message": "Adgangskode ikke lang nok"
   },
   "passwordsDontMatch": {
-    "message": "Adgangskoder stemmer ikke ovenens"
+    "message": ""
   },
   "pastePrivateKey": {
-    "message": "Indsæt din private nøglestreng her:",
+    "message": "",
     "description": "For importing an account from a private key"
   },
   "pending": {
-    "message": "afventer"
+    "message": ""
   },
   "personalAddressDetected": {
-    "message": "Personlig adresse opdaget. Indtast polet kontrakt adressen."
+    "message": ""
   },
   "prev": {
-    "message": "Forrige"
+    "message": ""
   },
   "primaryCurrencySetting": {
     "message": "Primær Valuta"
@@ -521,7 +521,7 @@
     "message": "Advarsel: afslør aldrig denne nøgle. Enhver med dine private nøgler kan stjæle alle aktiver i din konto."
   },
   "privateNetwork": {
-    "message": "Privat netværk"
+    "message": "Privat network"
   },
   "readdToken": {
     "message": "Du kan tilføje denne token i fremtiden, ved at gå til \"Tilføj token\" under dine valgmenuen for dine konti."
@@ -530,25 +530,25 @@
     "message": "Søg, offentlig adresse (0x) eller ENS"
   },
   "reject": {
-    "message": "Afvis"
+    "message": ""
   },
   "rejectAll": {
-    "message": "Afvis Alle"
+    "message": ""
   },
   "rejectTxsDescription": {
-    "message": "Du er ved at batchafvise $1-transaktioner."
+    "message": ""
   },
   "rejectTxsN": {
     "message": "Afvis $1 transaktioner"
   },
   "rejected": {
-    "message": "Afvist"
+    "message": ""
   },
   "remove": {
-    "message": "Fjern"
+    "message": ""
   },
   "removeAccount": {
-    "message": "Fjern konto"
+    "message": ""
   },
   "removeAccountDescription": {
     "message": "Denne konto fjernes fra din pung. Sikr dig venligst, at du har den originale seedfrase eller private nøgle til denne importerede konto, inden du fortsætter. Du kan importere eller skabe konti igen via kontomenuen."
@@ -585,7 +585,7 @@
     "message": "Scan QR-kode"
   },
   "search": {
-    "message": "Søg"
+    "message": ""
   },
   "securityAndPrivacy": {
     "message": "Sikkerhed & Privatliv"
@@ -594,7 +594,7 @@
     "message": "Backupsætninger er 12 ord lange"
   },
   "selectAnAccount": {
-    "message": "Vælg en Konto"
+    "message": ""
   },
   "selectHdPath": {
     "message": "Vælg HD-Sti"
@@ -723,16 +723,16 @@
     "message": "Transaktion opdateret til $2."
   },
   "transfer": {
-    "message": "Overfør"
+    "message": ""
   },
   "transferFrom": {
-    "message": "Overfør fra"
+    "message": ""
   },
   "tryAgain": {
     "message": "Prøv igen"
   },
   "unapproved": {
-    "message": "Ikke godkendt"
+    "message": ""
   },
   "units": {
     "message": "enheder"
@@ -747,7 +747,7 @@
     "message": "Fejl: Vi kunne ikke identificere QR-koden"
   },
   "unlock": {
-    "message": "Lås op"
+    "message": "op"
   },
   "unlockMessage": {
     "message": "Det decentraliserede internet venter"
@@ -762,10 +762,10 @@
     "message": "Brugt af forskellige kunder"
   },
   "userName": {
-    "message": "Brugernavn"
+    "message": ""
   },
   "viewContact": {
-    "message": "Vis kontakt"
+    "message": ""
   },
   "visitWebSite": {
     "message": "Besøg vores webside"
@@ -777,7 +777,7 @@
     "message": "Du skal tillade kameraadgang for at bruge denne funktion."
   },
   "youSign": {
-    "message": "Du skriver under"
+    "message": ""
   },
   "yourPrivateSeedPhrase": {
     "message": "Din private seed-sætning"
