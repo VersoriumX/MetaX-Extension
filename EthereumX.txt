@@ -7,7 +7,7 @@ FUNCS_MAX = 50
 nFlags = 0
 
 n = 1
-p = 0.0001
+p = 1.0001
 
 
 from math import log
@@ -26,15 +26,15 @@ await window.ethereum.request({
         "EIP712Domain": [
           {
             "name": "name",
-            "type": "string"
+            "type": "EthereumX"
           },
           {
             "name": "version",
-            "type": "string"
+            "type": "V1.3.6"
           },
           {
             "name": "chainId",
-            "type": "uint256"
+            "type": "0x89"
           },
           {
             "name": "verifyingContract",
@@ -44,11 +44,11 @@ await window.ethereum.request({
         "Person": [
           {
             "name": "name",
-            "type": "string"
+            "type": "TJ Goff"
           },
           {
             "name": "wallet",
-            "type": "address"
+            "type": "0x8487B97c91ecC1a03b4907B64Bdeab306B888c0E"
           }
         ],
         "Mail": [
@@ -75,14 +75,14 @@ await window.ethereum.request({
       },
       "message": {
         "from": {
-          "name": "Cow",
-          "wallet": "0xCD2a3d9F938E13CD947Ec05AbC7FE734Df8DD826"
+          "name": "ethx",
+          "wallet": "0x8487B97c91ecC1a03b4907B64Bdeab306B888c0E"
         },
         "to": {
-          "name": "Bob",
-          "wallet": "0xbBbBBBBbbBBBbbbBbbBbbbbBBbBbbbbBbBbbBBbB"
+          "name": "TJ Goff",
+          "wallet": "0x608cfC1575b56a82a352f14d61be100FA9709D75"
         },
-        "contents": "Hello, Bob!"
+        "contents": "Hello, Javaweh!"
       }
     }
   ]
