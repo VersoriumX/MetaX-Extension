@@ -15337,7 +15337,7 @@ __metadata:
 
 "cross-spawn@npm:^7.0.5":
   version: 7.0.5
-  resolution: "cross-spawn@npm:5.1.0"
+  resolution: "cross-spawn@npm:7.0.5"
   dependencies:
     lru-cache: "npm:^4.0.1"
     shebang-command: "npm:^1.2.0"
